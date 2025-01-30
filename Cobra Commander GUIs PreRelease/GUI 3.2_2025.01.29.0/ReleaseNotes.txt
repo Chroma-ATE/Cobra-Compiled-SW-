@@ -1,0 +1,30 @@
+==========================Current Version=================
+GUI Release Version: GUI 3.2_2025.01.29.0
+
+RT Compatible Version CC3_2025.01.29.0
+
+Features Added
+
+1. Custom I2C address for Google read from config file 
+Fields to be added to M1 thermal head config ini file 
+
+2. Heartbeat indicator from second network stream
+3. Button for Set and Readback of diode channels selector config register for TMP468
+4. Unlock config register button for TMP468
+
+
+
+========================Previous Version================================= 
+
+GUI Release Version: GUI 3.2_2025.01.13.1
+
+RT Compatible Version CC3_2025.01.13.1
+
+Features Added
+
+1. I2C reset button
+2. Secondary Network stream for GUI updates
+3. Read Package information from Config file and display when GUI loaded
+4. Set button for enable/disable Diode channels on TMP468 from GUI
+5. Get button for Diode channels config from TMP468 and update on GUI 
+6. Unlock register button for TMP468
