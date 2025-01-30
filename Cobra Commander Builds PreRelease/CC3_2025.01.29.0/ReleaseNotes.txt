@@ -9,7 +9,7 @@ Features Added
 Fields to be added to M1 thermal head config ini file 
 
 [TSDs]
-I2C ID = "<size(s)=4> 10 11 12 13"
+I2C ID = "<size(s)=1> 76"
 
 [Header]
 Config File Version = "1"
