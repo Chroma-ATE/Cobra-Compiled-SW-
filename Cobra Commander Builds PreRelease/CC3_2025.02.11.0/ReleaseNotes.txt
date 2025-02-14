@@ -1,0 +1,53 @@
+
+
+
+==========================Current Version=================
+Release Version CC3_2025.02.11.0
+GUI version 5.0
+
+1. IP address for master commander board from INI
+2. SetDCVoltage for variable PS control from INI
+=======================Previous Release=================
+Release Version CC3_2025.02.10.0
+GUI version 5.0
+
+1. LCD init fixes
+2. System init parameters for Head2
+
+=======================Previous Release=================
+
+RT  Version CC3_2025.01.29.0
+
+GUI Release Version: GUI 3.2_2025.01.29.0
+
+Features Added
+
+1. Custom I2C address for Google read from config file 
+Fields to be added to M1 thermal head config ini file 
+
+[TSDs]
+I2C ID = "<size(s)=1> 76"
+
+[Header]
+Config File Version = "1"
+
+
+2. SET DUT_#[0-9] FORCE(X) added on port 1111
+3. POWER(X) added on port 1111
+
+
+
+=======================Previous Release=================
+Release Version CC3_2025.01.13.1
+
+GUI Compatible Version: GUI 3.2_2025.01.13.1
+
+
+Features Added
+
+1. I2C reset button
+2. Event based update for I2C enable when Mechanical Relay State is changed. 
+3. Secondary Network stream for GUI updates
+4. Save and Read Package information from Config file
+5. Select Diode channels on TMP468 from GUI and TCP commands
+6. I2C engine in Bitfile with existing TMP468 support

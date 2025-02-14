@@ -3,6 +3,7 @@
 
 ==========================Current Version=================
 Release Version CC3_2025.02.10.0
+GUI version 5.0
 
 1. LCD init fixes
 2. System init parameters for Head2
