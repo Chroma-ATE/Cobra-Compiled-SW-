@@ -1,0 +1,110 @@
+﻿Architecture: windows_all
+CompatibilityVersion: 250000
+Depends: ni-labview-2020-runtime-engine-x86 (>= 20.1.1.49157-0+f5), ni-syscfg-runtime (>= 20.5.0.49152-0+f0), ni-serial-runtime (>= 20.0.0.49152-0+f0), ni-visa-runtime (>= 20.0.0.49152-0+f0), ni-488.2-runtime (>= 20.0.0.49152-0+f0)
+Description: Cobra GUI
+  GUI for communicating with the Chroma Cobra
+DisplayName: Cobra GUI
+Filename: cobra-gui-package_6.6.0-0_windows_all.nipkg
+Installed-Size: 7164
+MD5sum: 023e12e7f41d6e9936e5c27a774a2813
+Maintainer: Goal Automation LLC <>
+Package: cobra-gui-package
+Plugin: file
+Priority: standard
+Recommends: ni-certificates
+ReleaseNotes: 
+  Reorganized feed structure
+Section: Application Software
+Size: 6866800
+StoreProduct: yes
+UserVisible: yes
+Version: 6.6.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 250000
+Depends: ni-labview-2020-runtime-engine-x86 (>= 20.1.1.49157-0+f5), ni-syscfg-runtime (>= 20.5.0.49152-0+f0), ni-serial-runtime (>= 20.0.0.49152-0+f0), ni-visa-runtime (>= 20.0.0.49152-0+f0), ni-488.2-runtime (>= 20.0.0.49152-0+f0)
+Description: Cobra GUI
+  GUI for communicating with the Chroma Cobra
+DisplayName: Cobra GUI
+Filename: cobra-gui-package_6.7.0-0_windows_all.nipkg
+Installed-Size: 6989
+MD5sum: 76d1f49c10ea688fbf5c0464a30f29fe
+Maintainer: Goal Automation LLC <>
+Package: cobra-gui-package
+Plugin: file
+Priority: standard
+Recommends: ni-certificates
+ReleaseNotes: 
+  Trial Version that can point to cloud based feed
+Section: Application Software
+Size: 6698914
+StoreProduct: yes
+UserVisible: yes
+Version: 6.7.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 250000
+Depends: ni-labview-2020-runtime-engine-x86 (>= 20.1.1.49157-0+f5), ni-syscfg-runtime (>= 20.5.0.49152-0+f0), ni-serial-runtime (>= 20.0.0.49152-0+f0), ni-visa-runtime (>= 20.0.0.49152-0+f0), ni-488.2-runtime (>= 20.0.0.49152-0+f0)
+Description: Cobra GUI
+  GUI for communicating with the Chroma Cobra
+DisplayName: Cobra GUI
+Filename: cobra-gui-package_6.8.0-0_windows_all.nipkg
+Installed-Size: 7166
+MD5sum: 0659ca46ae365981db5c96f2c93d912d
+Maintainer: Goal Automation LLC <>
+Package: cobra-gui-package
+Plugin: file
+Priority: standard
+Recommends: ni-certificates
+ReleaseNotes: 
+  RT versions now read from cloud
+Section: Application Software
+Size: 6868496
+StoreProduct: yes
+UserVisible: yes
+Version: 6.8.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 250000
+Depends: ni-labview-2020-runtime-engine-x86 (>= 20.1.1.49157-0+f5), ni-syscfg-runtime (>= 20.5.0.49152-0+f0), ni-serial-runtime (>= 20.0.0.49152-0+f0), ni-visa-runtime (>= 20.0.0.49152-0+f0), ni-488.2-runtime (>= 20.0.0.49152-0+f0)
+Description: Cobra GUI
+  GUI for communicating with the Chroma Cobra
+DisplayName: Cobra GUI
+Filename: cobra-gui-package_6.9.0-0_windows_all.nipkg
+Installed-Size: 7209
+MD5sum: 552e9b083a5fdc92425d99c617568850
+Maintainer: Goal Automation LLC <>
+Package: cobra-gui-package
+Plugin: file
+Priority: standard
+Recommends: ni-certificates
+ReleaseNotes: 
+  Version utility functional for GUI and RT
+Section: Application Software
+Size: 6907900
+StoreProduct: yes
+UserVisible: yes
+Version: 6.9.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 250000
+Depends: ni-labview-2020-runtime-engine-x86 (>= 20.1.1.49157-0+f5), ni-syscfg-runtime (>= 20.5.0.49152-0+f0), ni-serial-runtime (>= 20.0.0.49152-0+f0), ni-visa-runtime (>= 20.0.0.49152-0+f0), ni-488.2-runtime (>= 20.0.0.49152-0+f0)
+Description: Cobra GUI
+  GUI for communicating with the Chroma Cobra
+DisplayName: Cobra GUI
+Filename: cobra-gui-package_6.10.0-0_windows_all.nipkg
+Installed-Size: 7209
+MD5sum: 7e7a3dd3bc9f6b1a28a8fd665e52e818
+Maintainer: Goal Automation LLC <>
+Package: cobra-gui-package
+Plugin: file
+Priority: standard
+Recommends: ni-certificates
+ReleaseNotes: 
+  Centered update manager dialog.  Removed unnecessary message while listing RT feeds
+Section: Application Software
+Size: 6911432
+StoreProduct: yes
+UserVisible: yes
+Version: 6.10.0-0
+
