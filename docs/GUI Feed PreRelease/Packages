@@ -153,3 +153,26 @@ StoreProduct: yes
 UserVisible: yes
 Version: 7.1.0-0
 
+Architecture: windows_all
+CompatibilityVersion: 250500
+Depends: ni-serial-runtime (>= 20.0.0.49152-0+f0), ni-visa-runtime (>= 20.0.0.49152-0+f0), ni-syscfg-runtime (>= 24.8.0.49237-0+f85), ni-labview-2020-runtime-engine-x86 (>= 20.1.1.49157-0+f5)
+Description: Cobra GUI
+  GUI for communicating with the Chroma Cobra
+DisplayName: Cobra GUI
+Filename: cobra-gui-package_7.2.0-0_windows_all.nipkg
+Installed-Size: 10786
+MD5sum: 740d64630644a34e95562492c835ff62
+Maintainer: Goal Automation LLC <>
+Package: cobra-gui-package
+Plugin: file
+Priority: standard
+Recommends: ni-certificates
+ReleaseNotes: 
+  Limits added to head config and bypass config
+SHA256: 10b2e1f2b61a47f70f0179c2572cc5d1609c597405297cf560c32bd22f5336dc
+Section: Application Software
+Size: 10202108
+StoreProduct: yes
+UserVisible: yes
+Version: 7.2.0-0
+
