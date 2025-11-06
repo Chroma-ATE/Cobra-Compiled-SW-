@@ -65,3 +65,26 @@ StoreProduct: yes
 UserVisible: yes
 Version: 10.0.0-0
 
+Architecture: windows_all
+CompatibilityVersion: 250500
+Depends: ni-serial-runtime (>= 20.0.0.49152-0+f0), ni-visa-runtime (>= 20.0.0.49152-0+f0), ni-syscfg-runtime (>= 24.8.0.49237-0+f85), ni-labview-2020-runtime-engine-x86 (>= 20.1.1.49157-0+f5)
+Description: Cobra GUI
+  GUI for communicating with the Chroma Cobra
+DisplayName: Cobra GUI
+Filename: cobra-gui-package_6.22.0-0_windows_all.nipkg
+Installed-Size: 10402
+MD5sum: e5a81fde8ebb2e2c75d7c3a2dab1f7ed
+Maintainer: Goal Automation LLC <>
+Package: cobra-gui-package
+Plugin: file
+Priority: standard
+Recommends: ni-certificates
+ReleaseNotes: 
+  Compatible with all Cobra RT SW V 6.x.x
+SHA256: 21759faa79f6f37ac5184b461097051027d75ed8e908e875b55bc2f754013c05
+Section: Application Software
+Size: 9812792
+StoreProduct: yes
+UserVisible: yes
+Version: 6.22.0-0
+
