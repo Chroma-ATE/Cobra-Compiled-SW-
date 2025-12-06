@@ -44,29 +44,6 @@ Version: 6.21.1-0
 
 Architecture: windows_all
 CompatibilityVersion: 250500
-Depends: ni-syscfg-runtime (>= 24.8.0.49237-0+f85), ni-labview-2020-runtime-engine-x86 (>= 20.1.1.49157-0+f5)
-Description: Cobra GUI
-  GUI for communicating with the Chroma Cobra
-DisplayName: Cobra GUI
-Filename: cobra-gui-package_10.0.0-0_windows_all.nipkg
-Installed-Size: 15916
-MD5sum: 945b1f5d2b8a83bd29d1b091c9010836
-Maintainer: Goal Automation LLC <>
-Package: cobra-gui-package
-Plugin: file
-Priority: standard
-Recommends: ni-certificates
-ReleaseNotes: 
-  Functionality not tested.  Built only to test installer on new Win 11 laptop.
-SHA256: 7e6eb091b2a5a11da139cca07ab8038108ac04a3b63e8061c87a4654b992eaca
-Section: Application Software
-Size: 15097044
-StoreProduct: yes
-UserVisible: yes
-Version: 10.0.0-0
-
-Architecture: windows_all
-CompatibilityVersion: 250500
 Depends: ni-serial-runtime (>= 20.0.0.49152-0+f0), ni-visa-runtime (>= 20.0.0.49152-0+f0), ni-syscfg-runtime (>= 24.8.0.49237-0+f85), ni-labview-2020-runtime-engine-x86 (>= 20.1.1.49157-0+f5)
 Description: Cobra GUI
   GUI for communicating with the Chroma Cobra
@@ -87,4 +64,73 @@ Size: 9812792
 StoreProduct: yes
 UserVisible: yes
 Version: 6.22.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 250500
+Depends: ni-syscfg-runtime (>= 24.8.0.49237-0+f85), ni-labview-2020-runtime-engine-x86 (>= 20.1.1.49157-0+f5)
+Description: Cobra GUI
+  GUI for communicating with the Chroma Cobra
+DisplayName: Cobra GUI
+Filename: cobra-gui-package_10.1.0-0_windows_all.nipkg
+Installed-Size: 16341
+MD5sum: 72289e3c8210ee1b664fe3aad8b1fb4e
+Maintainer: Goal Automation LLC <>
+Package: cobra-gui-package
+Plugin: file
+Priority: standard
+Recommends: ni-certificates
+ReleaseNotes: 
+  Intuitive organization of user interface.  Improved login at 5 user levels.  Advanced updater functionality.
+SHA256: bebe4b787d3d9cd4fc501d1144d4f5e2ca167b46d27b73eb32fec1c33f6428e7
+Section: Application Software
+Size: 15513610
+StoreProduct: yes
+UserVisible: yes
+Version: 10.1.0-0
+
+Architecture: windows_all
+CompatibilityVersion: 250500
+Depends: ni-syscfg-runtime (>= 24.8.0.49237-0+f85), ni-labview-2020-runtime-engine-x86 (>= 20.1.1.49157-0+f5)
+Description: Cobra GUI
+  GUI for communicating with the Chroma Cobra
+DisplayName: Cobra GUI
+Filename: cobra-gui-package_10.1.1-0_windows_all.nipkg
+Installed-Size: 16342
+MD5sum: e2d2e12cae4be433a274460edfa6fe2e
+Maintainer: Goal Automation LLC <>
+Package: cobra-gui-package
+Plugin: file
+Priority: standard
+Recommends: ni-certificates
+ReleaseNotes: 
+  M2 config enabled only on 2 head systems.
+SHA256: c81182270ed5c9d190bfb2da5dc116607be930157f75f43cd029bb87b0ae1cfb
+Section: Application Software
+Size: 15516420
+StoreProduct: yes
+UserVisible: yes
+Version: 10.1.1-0
+
+Architecture: windows_all
+CompatibilityVersion: 250500
+Depends: ni-syscfg-runtime (>= 24.8.0.49237-0+f85), ni-labview-2020-runtime-engine-x86 (>= 20.1.1.49157-0+f5)
+Description: Cobra GUI
+  GUI for communicating with the Chroma Cobra
+DisplayName: Cobra GUI
+Filename: cobra-gui-package_10.2.0-0_windows_all.nipkg
+Installed-Size: 16341
+MD5sum: a4d79eed57e34552c265afa2b79a5aa9
+Maintainer: Goal Automation LLC <>
+Package: cobra-gui-package
+Plugin: file
+Priority: standard
+Recommends: ni-certificates
+ReleaseNotes: 
+  Demo for Zyah
+SHA256: 87a2911fdc81fd38cb499641b6143047962b0fad40885d4ae5274b37ae013a57
+Section: Application Software
+Size: 15515966
+StoreProduct: yes
+UserVisible: yes
+Version: 10.2.0-0
 

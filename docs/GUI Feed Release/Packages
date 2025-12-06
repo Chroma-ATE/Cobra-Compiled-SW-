@@ -21,3 +21,26 @@ StoreProduct: yes
 UserVisible: yes
 Version: 6.21.1-0
 
+Architecture: windows_all
+CompatibilityVersion: 250500
+Depends: ni-syscfg-runtime (>= 24.8.0.49237-0+f85), ni-labview-2020-runtime-engine-x86 (>= 20.1.1.49157-0+f5)
+Description: Cobra GUI
+  GUI for communicating with the Chroma Cobra
+DisplayName: Cobra GUI
+Filename: cobra-gui-package_10.2.0-0_windows_all.nipkg
+Installed-Size: 16341
+MD5sum: a4d79eed57e34552c265afa2b79a5aa9
+Maintainer: Goal Automation LLC <>
+Package: cobra-gui-package
+Plugin: file
+Priority: standard
+Recommends: ni-certificates
+ReleaseNotes: 
+  Demo for Zyah
+SHA256: 87a2911fdc81fd38cb499641b6143047962b0fad40885d4ae5274b37ae013a57
+Section: Application Software
+Size: 15515966
+StoreProduct: yes
+UserVisible: yes
+Version: 10.2.0-0
+
