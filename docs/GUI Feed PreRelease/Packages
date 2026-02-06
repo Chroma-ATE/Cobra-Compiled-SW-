@@ -157,3 +157,25 @@ StoreProduct: yes
 UserVisible: yes
 Version: 10.3.1-0
 
+Architecture: windows_all
+CompatibilityVersion: 240800
+Depends: ni-488.2-runtime (>= 20.0.0.49152-0+f0), ni-labview-2020-runtime-engine-x86 (>= 20.1.1.49157-0+f5), ni-serial-runtime (>= 20.0.0.49152-0+f0), ni-visa-runtime (>= 20.0.0.49152-0+f0), ni-syscfg-runtime (>= 23.8.0.49253-0+f101)
+Description: Cobra GUI
+  GUI for communicating with the Chroma Cobra
+DisplayName: Cobra GUI
+Filename: cobra-gui-package_10.4.0-1_windows_all.nipkg
+Installed-Size: 10480
+MD5sum: 7ded8670238131669725a05ae5b2b276
+Maintainer: Chroma ATE <>
+Package: cobra-gui-package
+Plugin: file
+Priority: standard
+Recommends: ni-certificates
+ReleaseNotes: 
+  Release candidate with updated icon
+Section: Application Software
+Size: 9901970
+StoreProduct: yes
+UserVisible: yes
+Version: 10.4.0-1
+
