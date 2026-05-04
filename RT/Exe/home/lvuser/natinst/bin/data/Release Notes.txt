@@ -1,0 +1,39 @@
+Cobra Commander
+Chroma ATE
+
+v7.6.0 - 2026/05/04
+- Added support for specifying head 2 temperature over TCP using port 3002.
+- Added support for die temp feedback options on head 2, including internal TMP, TCP, and FTD.
+- Added support for customer temp feedback options on head 2, including TCP.
+- Fixed issues with inconsistent feedback logic between head 1 and head 2.
+- Fixed issues with inconsistent heater PID behavior between head 1 and head 2.
+- Fixed issue with case temp scaling on head 2.
+- Fixed issue with case temp range validation.
+- Fixed issue with case and evap temp scaling in heater PID loop.
+- Fixed issue with race condition at startup of head 1 thermal timed loop.
+
+v7.5.2 - 2026/03/11
+- Fixed issue that could intermittently prevent heads from being enabled.
+- Fixed issue that caused missing values in the hyperlog when TMP468 was used.
+- Fixed issue that caused inverter faults to be triggered when the compressor was started on some hardware configurations.
+
+v7.5.1 - 2026/03/02
+- Fixed issue with force calculation when using 125 mm piston.
+- Fixed issue with exponential flow curve used for head 1 and head 2 EEVs.
+- Fixed issue with flow curve support for head 2 EEV.
+- Fixed issue with feedback temp selection in response to piston movement.
+- Fixed issue with air pressure warnings during pistion movement.
+
+v7.5.0 - 2026/02/10
+- Added support for 125 mm piston.
+- Added support for applying PID gains to valve controllers performing internal PID control.
+- Modified Valve Controller.ini configuration file format.
+- Modified how pressure and force are calculated in some scenarios.
+- Fixed issues that could result in memory leaks.
+- Fixed issue that could result in incorrect temps based on piston position.
+
+v7.2.1 - 2025/11/24
+- Added valve actors.
+- Added Valve Controller.ini config file.
+- Modified Thermal Head Config.ini file format to specify velocity in units of steps/sec.
+- Modified TCP command handling to roll back blocking of repeat commands.
