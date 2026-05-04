@@ -1,0 +1,5 @@
+Cobra GUI
+Chroma ATE
+
+v7.5.0 - 2026/02/10
+- Fixed issues with update functionality.
