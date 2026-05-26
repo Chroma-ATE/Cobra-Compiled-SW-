@@ -1,6 +1,15 @@
 Cobra Commander
 Chroma ATE
 
+v7.6.1 - 2026/05/26
+- Fixed issue that prevented power control voltage from being loaded from System Save State.ini file at startup.
+- Fixed issue that caused inaccurate temperature control on dual-head models.
+- Fixed issue that prevented the ramp rate specified in the head 2 Thermal Head Config.ini file from being applied properly.
+- Fixed issue that prevented heater FPGA period from being set to less than 18 Hz.
+- Fixed issue with heater FPGA base loop rate.
+- Fixed issue that caused TCP temp loops to stop functioning after an out-of-limits temp was received.
+- Fixed issues that caused TCP temp loops to inconsistently evaluate some criteria needed to determine stability.
+
 v7.6.0 - 2026/05/04
 - Added support for specifying head 2 temperature over TCP using port 3002.
 - Added support for die temp feedback options on head 2, including internal TMP, TCP, and FTD.
