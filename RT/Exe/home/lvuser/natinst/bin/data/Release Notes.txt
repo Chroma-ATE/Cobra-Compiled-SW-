@@ -1,6 +1,9 @@
 Cobra Commander
 Chroma ATE
 
+v7.6.2 - 2026/06/12
+- Fixed issue with IMO SD1 inverter modbus initialization that could result in a memory leak on King Cobra systems.
+
 v7.6.1 - 2026/05/26
 - Fixed issue that prevented power control voltage from being loaded from System Save State.ini file at startup.
 - Fixed issue that caused inaccurate temperature control on dual-head models.
