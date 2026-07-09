@@ -1,6 +1,10 @@
 Cobra Commander
 Chroma ATE
 
+v7.6.3 - 2026/07/09
+- Fixed issues with force feedback calculation that could cause errors in force values when utilizing custom piston scaling.
+- Fixed issue with analog input scaling that caused minor errors in voltage values.
+
 v7.6.2 - 2026/06/12
 - Fixed issue with IMO SD1 inverter modbus initialization that could result in a memory leak on King Cobra systems.
 
