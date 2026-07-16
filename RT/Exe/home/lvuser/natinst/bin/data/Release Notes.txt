@@ -1,6 +1,16 @@
 Cobra Commander
 Chroma ATE
 
+v7.6.4 - 2026/07/16
+- Fixed issue with RAMP RATE, SS TARGET, RPM, HEATER OVERRIDE, N-FACTOR, DIODE_TEMP, and TSD_TEMP command valid range checks.
+- Fixed issue with inconsistent ACTUATE command implementation.
+- Fixed issue with inconsistent UNACTUATE command implementation.
+- Fixed issue with inconsistent SET TEMP command implementation.
+- Fixed issue with STATUS1 command response TSD feedback and TJ feedback value population for head 2.
+- Fixed issue with SET TEMP command response formatting.
+- Fixed issue with SOM STATUS commmand response formatting.
+- Fixed issue with duplicate commands being rejected on some ports.
+
 v7.6.3 - 2026/07/09
 - Fixed issues with force feedback calculation that could cause errors in force values when utilizing custom piston scaling.
 - Fixed issue with analog input scaling that caused minor errors in voltage values.
