@@ -1,6 +1,15 @@
 Cobra Commander
 Chroma ATE
 
+v7.7.0 - 2026/07/21
+- Added support for King Cobra v3 systems.
+- Added new system components JSON config file type.
+- Added new modbus controller JSON config file type.
+- Modified modbus controller to initialize a single shared modbus session at startup.
+- Modified modbus initialization to use connection settings loaded from file.
+- Modified valve controllers to use a previously initialized modbus session.
+- Modified IMO SD1 inverters to use a previously initialized modbus session.
+
 v7.6.4 - 2026/07/16
 - Fixed issue with RAMP RATE, SS TARGET, RPM, HEATER OVERRIDE, N-FACTOR, DIODE_TEMP, and TSD_TEMP command valid range checks.
 - Fixed issue with inconsistent ACTUATE command implementation.
