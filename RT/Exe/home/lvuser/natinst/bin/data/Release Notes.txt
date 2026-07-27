@@ -1,6 +1,9 @@
 Cobra Commander
 Chroma ATE
 
+v7.7.1 - 2026/07/27
+- Fixed issue related to modbus initialization timing.
+
 v7.7.0 - 2026/07/21
 - Added support for King Cobra v3 systems.
 - Added new system components JSON config file type.
