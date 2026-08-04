@@ -1,6 +1,12 @@
 Cobra Commander
 Chroma ATE
 
+v7.8.0 - 2026/08/04
+- Added support for dual-zone heaters.
+- Added new heater controller JSON config file type.
+- Added status/error reporting when loading JSON config files.
+- Fixed issue related to status and error log initialization that could result in missing log entries.
+
 v7.7.1 - 2026/07/27
 - Fixed issue related to modbus initialization timing.
 
