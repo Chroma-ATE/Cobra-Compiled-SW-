@@ -1,6 +1,21 @@
 Cobra Commander
 Chroma ATE
 
+v7.9.1 - 2026/09/04
+- Fixed issue related to looped status reporting behavior.
+- Fixed issue related to valve position calculation.
+- Fixed issue related to population of HGV PID values in data log files.
+
+v7.9.0 - 2026/08/31
+- Added new stepper valve JSON config file type.
+- Added new scaling JSON config file types.
+- Added new valve controller JSON config file types.
+- Modified valve controller initialization routine.
+- Modified some status message criteria and content.
+- Fixed issue that could prevent valve status from being populated.
+- Fixed issue related to water flow display and logging.
+- Fixed issues related to LCD display background color consistency and options.
+
 v7.8.1 - 2026/08/04
 - Fixed issue related to heater control that prevented proper operation.
 
