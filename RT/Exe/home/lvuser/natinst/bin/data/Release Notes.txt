@@ -1,6 +1,11 @@
 Cobra Commander
 Chroma ATE
 
+v7.10.0 - 2026/09/15
+- Added feature to configure liquid injection functionality separately from the compressor type.
+- Added error handling when initializing system resources at startup.
+- Modified CU Hardware Type.ini file format to add Liquid Injection parameter.
+
 v7.9.1 - 2026/09/04
 - Fixed issue related to looped status reporting behavior.
 - Fixed issue related to valve position calculation.
