@@ -1,6 +1,10 @@
 Cobra Commander
 Chroma ATE
 
+v7.11.0 - 2026/09/17
+- Modified compressor control routine to utilize default speeds from config files on systems using dual IMO inverters.
+- Modified compressor control routine to utilize max and min speeds from config files on systems using dual IMO inverters.
+
 v7.10.0 - 2026/09/15
 - Added feature to configure liquid injection functionality separately from the compressor type.
 - Added error handling when initializing system resources at startup.
