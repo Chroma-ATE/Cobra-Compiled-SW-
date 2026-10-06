@@ -1,6 +1,10 @@
 Cobra Commander
 Chroma ATE
 
+v7.13.0 - 2026/10/06
+- Added feature to optionally use an alternate compressor default speed in cryo mode.
+- Modified CU Hardware Type.ini file format to include additional compressor cryo mode settings.
+
 v7.12.0 - 2026/10/02
 - Modified how compressor control routine identifies and handles overtemp conditions on systems using a single IMO inverter.
 
