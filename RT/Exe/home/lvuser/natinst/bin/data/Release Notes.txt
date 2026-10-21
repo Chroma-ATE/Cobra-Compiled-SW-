@@ -1,6 +1,13 @@
 Cobra Commander
 Chroma ATE
 
+v7.14.0 - 2026/10/21
+- Added high stage compressor warm up period when starting systems using dual IMO inverters.
+- Added fault check that evaluates lowest stage compressor speed against a minimum limit.
+- Added fault check that evaluates high stage compressor speed against a minimum limit.
+- Modified CU Warnings and Faults.ini file format to include additional compressor speed faults.
+- Fixed issues related to status message timing and content when running with dual IMO inverters.
+
 v7.13.0 - 2026/10/06
 - Added feature to optionally use an alternate compressor default speed in cryo mode.
 - Modified CU Hardware Type.ini file format to include additional compressor cryo mode settings.
