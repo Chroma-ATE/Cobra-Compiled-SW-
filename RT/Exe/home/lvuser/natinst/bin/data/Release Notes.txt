@@ -1,6 +1,9 @@
 Cobra Commander
 Chroma ATE
 
+v7.14.1 - 2026/10/23
+- Fixed issue that could prevent compressor speed fault timeouts from resetting after a stop.
+
 v7.14.0 - 2026/10/21
 - Added high stage compressor warm up period when starting systems using dual IMO inverters.
 - Added fault check that evaluates lowest stage compressor speed against a minimum limit.
